@@ -60,19 +60,26 @@ This project goes beyond basic spam detection by distinguishing **legitimate pro
 
 ## 📁 Project Structure
 
-```
 spam-detection-ml/
 │
-├── model.py                 # ML pipeline (training + evaluation)
-├── app.py                   # Streamlit UI application
-├── spam_classifier.pkl      # Trained model
-├── tfidf_vectorizer.pkl     # TF-IDF vectorizer
-├── requirements.txt
-├── README.md
-└── data/
-    ├── spam.csv
-    └── spam_texts.csv
-```
+├── model.py                 # End-to-end ML pipeline (data loading, preprocessing, training, evaluation)
+├── app.py                   # Streamlit UI for real-time predictions
+│
+├── spam_classifier.pkl      # Trained multi-class classification model
+├── tfidf_vectorizer.pkl     # TF-IDF vectorizer used for feature extraction
+│
+├── requirements.txt         # Project dependencies
+├── README.md                # Project documentation
+│
+├── data/
+│   ├── spam.csv             # Base dataset (ham + spam)
+│   ├── spam_texts.csv       # Additional labeled dataset (promotional + spam)
+│
+├── assets/                  # Screenshots for README
+│   ├── ui-home.png
+│   ├── spam-result.png
+│   ├── promotional-result.png
+│   └── normal-result.png
 
 ---
 
