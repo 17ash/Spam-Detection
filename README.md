@@ -60,6 +60,7 @@ This project goes beyond basic spam detection by distinguishing **legitimate pro
 
 ## 📁 Project Structure
 
+```
 spam-detection-ml/
 │
 ├── model.py                 # End-to-end ML pipeline (data loading, preprocessing, training, evaluation)
@@ -73,14 +74,14 @@ spam-detection-ml/
 │
 ├── data/
 │   ├── spam.csv             # Base dataset (ham + spam)
-│   ├── spam_texts.csv       # Additional labeled dataset (promotional + spam)
+│   └── spam_texts.csv       # Additional labeled dataset (promotional + spam)
 │
-├── assets/                  # Screenshots for README
-│   ├── ui-home.png
-│   ├── spam-result.png
-│   ├── promotional-result.png
-│   └── normal-result.png
-
+└── assets/                  # Screenshots for README
+    ├── ui-home.png
+    ├── spam-result.png
+    ├── promotional-result.png
+    └── normal-result.png
+```
 ---
 
 ## ▶️ How to Run
