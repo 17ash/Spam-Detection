@@ -23,6 +23,19 @@ This project goes beyond basic spam detection by distinguishing **legitimate pro
 * 🔍 Shows cleaned text for transparency
 
 ---
+## 📸 App Preview
+
+### 🏠 Home Screen
+![Home UI](assets/ui-home.png)
+
+### 🚫 Spam Detection
+![Spam](assets/spam-result.png)
+
+### 🛍️ Promotional Detection
+![Promo](assets/promotional-result.png)
+
+### ✅ Normal Message
+![Normal](assets/normal-result.png)
 
 ## 🧠 Tech Stack
 
